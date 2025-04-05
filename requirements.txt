@@ -1,0 +1,21 @@
+# Dependencias principales
+python-docx>=0.8.11        # Manipulación de documentos Word
+customtkinter>=5.2.0       # Interfaz gráfica moderna
+pillow>=9.0.0              # Requerido por customtkinter para imágenes
+
+# Herramientas de construcción y empaquetado
+pyinstaller>=5.6.2         # Para crear el ejecutable
+setuptools>=65.5.1         # Para configuración del paquete
+
+# Utilidades de interfaz
+ttkthemes>=3.2.0           # Temas adicionales para ttk
+darkdetect>=0.7.1          # Para detectar el tema del sistema
+
+# Utilidades para el procesamiento
+regex>=2022.10.31          # Expresiones regulares avanzadas
+chardet>=5.0.0             # Detección de codificación de archivos
+
+# Para desarrollo y pruebas
+pytest>=7.0.0              # Framework de pruebas unitarias
+black>=22.3.0              # Formateador de código
+pylint>=2.13.0             # Linter para análisis estático
